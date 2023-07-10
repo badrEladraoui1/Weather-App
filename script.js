@@ -7,7 +7,7 @@ const input = document.querySelector('.search-box input');
 
 const handleSearch = () => {
 
-    const APIkey = '2a6477d5d60f30537c44122ed06506f2';
+    const APIkey = 'API KEY FROM https://openweathermap.org/ (FREE)';
     const city = input.value;
 
     if(city === '')
